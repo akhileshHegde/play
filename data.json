@@ -1,0 +1,11 @@
+{
+  "1": ["docker images", "- docker run busybox /bin/sh", "docker ps -a"],
+  "2": ["echo <arg> > <arg>"],
+  "cls": ["clear"],
+  "dpa": ["docker ps -a"],
+  "di": ["docker images"],
+  "drm": ["docker rm <arg>"],
+  "dkill": ["docker stop <arg>", "docker rm <arg>"],
+  "help": ["cat $GOPLAY"],
+  "hist": ["cat ~/.bash_history"]
+}
